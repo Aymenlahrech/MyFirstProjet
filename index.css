@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(40, 68, 123);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,202,255,0.9389005602240896) 0%, rgba(9,9,121,1) 83%);
+    margin: 0;
+    padding: 0;
+  }
+  nav{
+    display:flex;
+    flex-direction: row;
+     background-color:  rgb(33, 33, 243) ;
+     gap:300px;
+     height: 50px;
+   justify-content: center;  
+   font-size: x-large;
+  }  
+
+  #searched{
+    margin-left: 80%;
+   width: 500px;
+   display: flex;
+   height: 50px;
+
+
+  } 
+  input{
+    width: 200px;
+  }
+  button{
+    width: 86px;
+    background-color:rgba(0,202,255,0.9389005602240896) ;
+  }
+
+  .img{
+    width: 200px;
+    height: 200px;
+    
+  }
+  .listone{
+ margin-top: 30px;
+width: 200px;
+height: 300px;
+border:solid rgb(8, 8, 245)
+
+
+    } 
+    .list{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+
+
+    }
+    #name{
+   justify-content: center;
+   color: aliceblue;
+   text-align: center;
+   font-size: large;
+ margin-top: 20px;
+ 
+
+
+    } 
+ .search{
+  display: grid;
+grid-template-columns: repeat(3,1fr);
+ }
+ .men{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+
+ }
+ .women{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+ }
+    
+    
+    
+   
+   
